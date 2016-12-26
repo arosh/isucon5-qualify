@@ -1,0 +1,7 @@
+# mysql -u isucon -p
+# show databases;
+# use isucon5q;
+# SHOW INDEX FROM relations;
+# SHOW CREATE TABLE relations;
+ALTER TABLE relations ADD INDEX another(another);
+ALTER TABLE footprints ADD INDEX user_id(user_id);
